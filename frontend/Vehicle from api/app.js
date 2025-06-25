@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express(); // ✅ Declare `app` early
+const app = express(); 
 
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -14,7 +14,7 @@ dotenv.config();
 
 // EJS setup
 app.set('view engine', 'ejs');
-app.set('layout', 'layout'); // Refers to views/layout.ejs
+app.set('layout', 'layout'); 
 app.use(expressLayouts);
 
 // Middleware
