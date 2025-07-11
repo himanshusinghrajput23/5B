@@ -20,7 +20,7 @@
 import java.util.*;
 public class charcount {
        public static void main(String[] args) {
-        String s = "aaabbbds";
+        String s = "abbcccdddd";
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
