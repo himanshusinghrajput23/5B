@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hotel Management</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="availability.html">Availability</a></li>
+                <li><a href="prices.html">Prices</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <h1>Welcome to Our Hotel</h1>
+                <p>Your perfect stay awaits</p>
+            </div>
+            <div class="hero-right">
+                <div class="login-overlay">
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <label for="loginEmail">Email:</label>
+                        <input type="email" id="loginEmail" name="loginEmail" >
+                        
+                        <label for="loginPassword">Password:</label>
+                        <input type="password" id="loginPassword" name="loginPassword">
+                        
+                        <button type="submit" href="rooms.html">Login</button>
+                    </form>
+                    <p style="margin-top: 1rem; color: white;">Don't have an account? <a href="signup.html" style="color: #ffd700;">Sign Up</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Feels Like Yours.</p>
+    </footer>
+</body>
+</html>
